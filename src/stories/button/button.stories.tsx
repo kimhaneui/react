@@ -15,6 +15,16 @@ export const Default = () => (
     </StyledButton>
 );
 
+Default.story = {
+    name: "defaultBtn",
+};
+
+export const DDD = () => (
+    <div>dd</div>
+);
+
+
+
 export const googleLoginBtn = () => (
     <StyledButton onClick={action('Styled button clicked')}>
         GOogle

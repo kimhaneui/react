@@ -10,4 +10,5 @@ const themes = [LightTheme, DarkTheme];
 addDecorator(withThemesProvider(themes, ThemeProvider));
 
 // automatically import all files ending in *.stories.js
-configure(require.context('../src/stories/', true,  /\.stories\.(js|mdx|tsx)$/), module);
+configure(require.context('../src', true,  /\.stories\.(js|mdx|tsx)$/), module);
+

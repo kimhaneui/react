@@ -1,0 +1,18 @@
+.footer {
+  width: 100%;
+}
+.footer-wrapper {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-wrapper div {
+  width: 33.33%;
+  text-align: center;
+}
+.footer-wrapper div:first-child {
+  border-top: 2px solid #000;
+}

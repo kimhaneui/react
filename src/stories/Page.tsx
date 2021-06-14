@@ -20,7 +20,12 @@ export const Page: React.FC<PageProps> = ({ user, onLogin, onLogout, onCreateAcc
     <section>
       페이지입니다.
         <Input></Input>
+        <div className="imgBox">
         <Img></Img>
+        <Img></Img>
+        <Img></Img>
+        </div>
+        
     </section>
     <Footer user={user} onLogin={onLogin} onLogout={onLogout}/>
   </article>

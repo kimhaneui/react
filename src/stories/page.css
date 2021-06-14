@@ -27,6 +27,14 @@ a {
   color: #1ea7fd;
 }
 
+.imgBox{
+  width: 100%;
+  display: block;
+}
+.imgBox Img{
+display: block;
+margin: 30px;
+}
 ul {
   padding-left: 30px;
   margin: 1em 0;

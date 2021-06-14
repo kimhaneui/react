@@ -4,6 +4,7 @@ import { Header } from './Header';
 import { Footer } from './Footer';
 import { Input } from './Input';
 import './page.css';
+import { Img } from './circle-img';
 
 export interface PageProps {
   user?: {};
@@ -19,6 +20,7 @@ export const Page: React.FC<PageProps> = ({ user, onLogin, onLogout, onCreateAcc
     <section>
       페이지입니다.
         <Input></Input>
+        <Img></Img>
     </section>
     <Footer user={user} onLogin={onLogin} onLogout={onLogout}/>
   </article>

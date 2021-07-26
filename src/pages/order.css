@@ -1,0 +1,43 @@
+html {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+body {
+  min-height: 100%;
+}
+
+.headerTxt{
+  width: 100%;
+  text-align: center;
+  top: 15%;
+}
+
+input {
+  border: 1px solid #333;
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+}
+
+.list {
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  font-size: small;
+}
+
+.textBox{
+  display: inline-block;
+}
+
+li {
+height: 100px;
+}
+img {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}

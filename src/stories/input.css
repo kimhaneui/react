@@ -1,7 +1,11 @@
 .login-input {
   border-radius: 30px;
   border-color: #c1deff;
-  width: 60%;
+  width: 70%;
   height: 50px;
   text-align: center;
+  -webkit-appearance : none;
+  -moz-appearance:none;
+  appearance:none;
+  box-shadow: none;
 }

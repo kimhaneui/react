@@ -1,5 +1,4 @@
 import React from 'react';
-import './circle-img.css';
 
 export interface circleImgProps {
   /**
@@ -16,7 +15,7 @@ export const Img: React.FC<circleImgProps> = ({
   ...props
 }) => {
   return (
-        <img src="" className="circle-img" alt="" />
+        <img src="" className="circle" alt="" />
         
   );
 };

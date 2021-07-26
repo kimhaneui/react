@@ -1,0 +1,31 @@
+html {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+body {
+  min-height: 100%;
+}
+
+ul{
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  list-style: none;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+
+.btn{
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  text-align: center;
+}

@@ -1,13 +1,10 @@
+import Input from '@material-ui/core/Input';
 import React, {useEffect, useState } from 'react';
+import { Footer } from '../stories/Footer';
+import { Header } from '../stories/Header';
+import './store-list.css';
 
-import { Header } from './Header';
-import { Footer } from './Footer';
-import { Input } from './Input';
-import './page.css';
-import { Img } from './CircleImg';
-import { Button } from './Button';
-
-export interface PageProps {
+export interface StoreListProps {
   user?: {};
   onLogin?: () => void;
   onLogout?: () => void;
@@ -15,7 +12,7 @@ export interface PageProps {
   pageName?: "";
 }
 
-export const Page: React.FC<PageProps> = ({ user, onLogin, onLogout, onCreateAccount, pageName }) => {
+export const StoreList: React.FC<StoreListProps> = ({ user, onLogin, onLogout, onCreateAccount, pageName }) => {
     const [hasError, setErrors] = useState(false);
     const [assets, setAssets] = useState({id:1, amount:1});
     // useEffect(() => {
@@ -31,18 +28,9 @@ export const Page: React.FC<PageProps> = ({ user, onLogin, onLogout, onCreateAcc
     // }, []);
     return (
       <article>
-        {/* <Header user={user} pageName={pageName} /> */}
-        <div className="title">
-          <h2>SIGNIN</h2>
-        </div>
-        <div className="input-box">
-            <Input></Input>
-            <Input></Input>
-        </div>
-        <div className="btn-box">
-          <Button label={'LOGIN'}></Button>
-          <Button label={'SIGNUP'}></Button>
-        </div>
+        <Header user={user} pageName={pageName} />
+        <section>
+        </section>
         <Footer user={user} onLogin={onLogin} onLogout={onLogout}/>
       </article>
     )
